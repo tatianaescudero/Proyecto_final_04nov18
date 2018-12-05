@@ -142,18 +142,17 @@ main {
     display: block;
 }
 
-@media (min-width: 768px) and (max-width: 990px) { 
+@media (min-width: 768px) and (max-width: 990px) {
     .sliderHome .slick-slide .heading {
         position: absolute;
-        text-align: center; 
-        top: 30% !important;
+        text-align: center;
         left: 36% !important;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
     .sliderHome .slick-slide .heading {
-        position: absolute;
-        text-align: center; 
-        top: 30% !important;
-        left: 15% !important;
+        left: auto;
+        width: 100%;
+    }
 }
