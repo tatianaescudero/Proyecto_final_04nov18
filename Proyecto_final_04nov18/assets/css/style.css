@@ -1,0 +1,157 @@
+body {
+    background: #FCFBF5;
+    font-family: 'Open Sans', sans-serif;
+    color: #3b3b3b;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.3em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.7em;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+p {
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+main {
+    /* position: relative;
+    top: 70px;*/
+    padding: 70px 0 0 0;
+}
+
+.navbar {
+    background-color: #A3D2B1;
+    position: fixed;
+    width: 100%;
+    z-index: 6;
+    border: none;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #F0F0F0;
+}
+
+.modulos {
+    padding: 70px 3% 0 3%;
+}
+
+.galeria {
+    padding: 70px 3% 0 3%;
+}
+
+.footer {
+    color: #F0F0F0;
+    background-color: #A3D2B1;
+    text-align: center;
+    padding: 20px 80px;
+}
+
+.form {
+    text-align: left;
+    margin: 5px;
+}
+
+.form_button {
+    text-align: left;
+    color: #333333;
+    margin: 5px;
+}
+
+.box {
+    border: none;
+}
+
+.icons a {
+    color: #F0F0F0;
+}
+
+.thumbnail {
+    background: #FCFBF5;
+    border: none;
+}
+
+.profile {
+    float: right;
+    margin: 6px 0 0 40px;
+}
+
+.profile h4 {
+    font-size: .9em;
+    color: #fff;
+    font-weight: 100;
+    display: inline-block;
+    margin: 0 0 0 13px;
+    position: relative;
+    top: 2px;
+}
+
+.profile img {
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.sliderHome {
+    text-align: center;
+    margin-top: 0;
+    margin: 0 auto;
+    height: 350px;
+}
+
+.sliderHome .slick-slide>div {
+    position: relative;
+}
+
+.sliderHome .slick-slide .heading {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 40%;
+}
+
+.sliderHome .slick-slide .heading h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.7em;
+}
+
+.sliderHome>div div h2 p {
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.zoom {
+    transition: all .2s ease-in-out;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+@media (min-width: 768px) and (max-width: 990px) { 
+    .sliderHome .slick-slide .heading {
+        position: absolute;
+        text-align: center; 
+        top: 30% !important;
+        left: 36% !important;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .sliderHome .slick-slide .heading {
+        position: absolute;
+        text-align: center; 
+        top: 30% !important;
+        left: 15% !important;
+}
